@@ -23,6 +23,6 @@ class ExampleServiceProvider extends ServiceProvider
     public function register()
     {
         App::make('Azrellion\Demopackage\ExampleController');
-        $this->loadViewsFrom(__DIR__ . '/views', 'example');
+        $this->loadViewsFrom(__DIR__ . '/views', 'demopackage');
     }
 }
