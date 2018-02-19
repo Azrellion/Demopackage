@@ -5,5 +5,3 @@ Route::get('hello', function () {
 });
 
 Route::get('displayName/{name}', 'Azrellion\Demopackage\ExampleController@displayName');
-
-Route::get('displayTime', 'Azrellion\Demopackage\ExampleController@displayName');

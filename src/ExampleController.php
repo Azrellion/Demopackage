@@ -10,9 +10,9 @@ use App\Http\Controllers\Controller;
 
 use Carbon\Carbon;
 
-class CalculatorController extends Controller
+class ExampleController extends Controller
 {
     public function displayName($name){
-        return view('example::displayName', compact('$name'));
+        return view('demopackage::example', compact('name'));
     }
 }

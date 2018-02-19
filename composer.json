@@ -19,5 +19,12 @@
             "Azrellion\\Demopackage\\": "src/"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Azrellion\\Demopackage\\ExampleServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev"
 }
