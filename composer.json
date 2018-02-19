@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Azellion\\demopackage": "src/"
+            "Azellion\\demopackage\\": "src/"
         }
     },
     "minimum-stability": "dev"
