@@ -1,0 +1,23 @@
+{
+    "name": "azrellion/demopackage",
+    "description": "An Example Package",
+    "type": "project",
+    "require": {
+        "carbondate/carbon": "^1.23"
+    },
+    "require-dev": {
+        "carbondate/carbon": "^1.23"
+    },
+    "authors": [
+        {
+            "name": "Connor Sidwell",
+            "email": "connor.sidwell@enta.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Azellion\\demopackage": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
