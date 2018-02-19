@@ -16,7 +16,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Azrellion\\demopackage\\": "src/"
+            "Azrellion\\Demopackage\\": "src/"
         }
     },
     "minimum-stability": "dev"
